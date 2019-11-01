@@ -29,6 +29,10 @@ const books = [
       title: 'Jurassic Park',
       author: 'Michael Crichton',
     },
+    {
+      title: 'Jurassic City',
+      author: 'Michael Scott',
+    },
   ];
   // Resolvers define the technique for fetching the types defined in the
 // schema. This resolver retrieves books from the "books" array above.
