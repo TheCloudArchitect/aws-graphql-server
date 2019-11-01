@@ -18,7 +18,7 @@ phases:
         commands:
             - echo "we are in the post build phase"
   artifacts:
-  files:
-    - '**/*'
+    files:
+      - '**/*'
   name: myname-$(date +%Y-%m-%d)           
             
